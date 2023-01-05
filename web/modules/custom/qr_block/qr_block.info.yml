@@ -1,7 +1,0 @@
-name: QR code generator
-description: Provides programmatic examples of the Ultimate block guide.
-type: module
-core_version_requirement: ^8.8.0 || ^9 || ^10
-dependencies:
-  - drupal:block
-  - drupal:config
