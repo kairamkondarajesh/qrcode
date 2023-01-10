@@ -115,5 +115,11 @@ class QrCodeBlock extends BlockBase implements ContainerFactoryPluginInterface {
       }
     }
   }
+   /**
+   * @return int
+   */
+  public function getCacheMaxAge() {
+    return 0;
+  }
 
 }
